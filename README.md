@@ -28,12 +28,6 @@ This project was built as part of my learning journey in Front-End Development u
 
 ![Preview](images/screenshot.png)
 
----
-
-## 🚀 Live Demo
-
-🔗 [Click here to view the website](https://fatmamagdi.github.io/Your-Perfect-Home/)
-
 
 ---
 
