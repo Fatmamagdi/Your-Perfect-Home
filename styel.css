@@ -1,0 +1,516 @@
+
+
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(229, 234, 234);
+    padding: 10px;
+
+
+
+
+}
+
+.selected {
+    background-color: #b8b7b7;
+}
+
+
+nav a {
+    margin: 10px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #ffffff;
+}
+
+.cover {
+    background-size: cover;
+}
+
+.prodacts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section div {
+    margin: 65px;
+    height: 300px;
+    width: 370px;
+
+}
+
+
+section div p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.More_detalis {
+    background-color: #ddd6d6;
+    text-decoration: none;
+    border: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 120px;
+
+
+}
+
+.detalis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    margin: 0px;
+    
+}
+
+.prodact_details {
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.prodact_details div img {
+    height: 500px;
+}
+.prodact_details div h1{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+
+.prodact_details div p{
+    font-size: 15px;
+    color: rgb(77, 74, 74);
+    
+}
+.amount button{
+    width: 120px;
+    font-size: 15px;
+    padding: 3px;
+    height: 45px;
+    text-align: center;
+    margin: 20px 30px 20px 0px;
+    border-radius: 25px;
+    border: 1px solid rgb(194, 193, 193);
+    background-color: #ff9901c4;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+.amount{
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.amount button:hover{
+    background-color: #997e55;
+}
+
+.contant {
+    height: 300px;
+    width: 300px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+
+
+}
+.amount input{
+    margin-bottom: 0px;
+    height: 25px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+
+
+.create_account input {
+    margin: 10px;
+
+}
+
+
+input {
+    border: 1px solid rgb(194, 193, 193);
+    border-radius: 50px;
+    height: 25px;
+
+}
+
+.email {
+    padding-right: 25px;
+}
+
+.password {
+    padding-right: 7px;
+}
+
+.create_page {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+
+
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 100;
+    color: #494747;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#submit{
+    width: 160px;
+    font-size: 15px;
+    padding: 3px;
+    height: 45px;
+    text-align: center;
+    margin: 20px 30px 20px 85px;
+    border-radius: 25px;
+    border: 1px solid rgb(194, 193, 193);
+    background-color: #ff9901c4;
+    font-size: 20px;
+    color: #ffffff;
+
+
+
+}
+
+#submit:hover {
+    background-color: #997e55;
+
+}
+
+
+
+
+fieldset {
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 400px;
+    border: 1px solid rgb(194, 193, 193);
+    align-items: center;
+}
+
+.login {
+
+    justify-content: center;
+}
+
+#date-of-birth {
+    width: 120px;
+    font-size: 15px;
+    padding: 7px;
+    height: 15px;
+
+}
+
+.login-page{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 193, 193);
+    padding-top: 40px;
+    margin: 156px 600px;
+   
+    
+    
+   
+}
+
+.login-page button{
+    width: 120px;
+    font-size: 15px;
+    padding: 3px;
+    height: 35px;
+    text-align: center;
+    margin: 20px 30px 20px 0px;
+    border-radius: 25px;
+    border: 1px solid rgb(194, 193, 193);
+    background-color: #ff9901c4;
+    font-size: 20px;
+    color: #ffffff;
+  
+    
+
+}
+
+.login-page button:hover {
+    background-color: #997e55;
+
+}
+
+.lonin-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.personal-inf input{
+    margin-top: 15px;
+
+}
+.email-int input{
+    margin-left: 20px;
+}
+
+.password-int input{
+    margin-left: 6px;
+}
+
+section{
+    display: flex;
+    
+}
+
+.dly p{
+    font-size: 30px;
+    position:relative;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+    height: 5px;
+}
+
+.Review div{
+    height: 30px;
+    margin-bottom: 55px;
+   
+ 
+
+}
+
+.Review div p{
+    font-size: 15px;
+}
+
+.Qty {
+    height: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+
+p{
+    line-height: 0.5;
+}
+
+.Review{
+    margin-left: 80px;
+        page-break-before: always;
+      
+    
+    
+}
+
+.order{
+    display: flex; 
+   margin-top: 0px;
+   
+     
+}
+
+
+.order div p{
+    font-size:16px;
+    width: 120px;
+    line-height: .5;
+}
+
+.pro img{
+    height: 400px;
+    margin-bottom:600pxpx;
+  
+}
+
+.Summary{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Summary div{
+    height: 35px;
+    margin-bottom: 0px;
+}
+
+span{
+    color: #081da7;
+    font-size: 18px;
+}
+.order div {
+    height: 20px;
+    margin-top: 8px;
+    
+}
+
+.Privacy{
+    width: 600px;
+   margin-left: 20px;
+
+}
+ .Privacy p{
+    font-size: 15px;
+    margin-left: 10px;
+ }
+
+ .or-now button{
+    width: 160px;
+    font-size: 15px;
+    padding: 3px;
+    height: 45px;
+    text-align: center;
+   margin-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid rgb(194, 193, 193);
+    background-color: #ff9901c4;
+    font-size: 20px;
+    color: #ffffff;
+ }
+ .last-div div{
+    margin-top: 0px;
+    margin-left: 38px;
+    
+ }
+
+ .or-now button:hover{
+    background-color: #997e55;
+}
+ .thanks {
+ text-align: center;
+    
+ }
+
+ .thanks img{
+    height: 70px;
+ }
+
+ .thanks button{
+    width: 160px;
+    font-size: 15px;
+    padding: 3px;
+    height: 45px;
+    text-align: center;
+   
+    border-radius: 25px;
+    border: 1px solid rgb(194, 193, 193);
+    background-color: #ff9901c4;
+    font-size: 20px;
+    color: #ffffff;
+
+ }
+
+ .thanks button:hover{
+    background-color: #997e55;
+}
+
+.help input{
+    padding: 5px 50px 5px 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+.help{
+    text-align: center;
+    
+}
+
+.questions{
+    line-height: 2;
+    margin-left: 15px;
+
+}
+
+.questions summary{
+    color: rgb(13, 106, 183);
+}
+
+.Back-ground{
+    opacity: 70%;
+    background-image: url("images/back.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+   
+   
+}
+.send-message{
+    border-radius: 10px;
+    margin: 5px;
+    width: 250px;
+    height: 400px;
+    border: 1px solid rgb(235, 229, 229);
+    background-color: #f1eaeab0;
+    margin-top: 150px;
+    margin-left: 500px;
+
+}
+
+.contact-us div{
+    margin: 0px;
+    height: 50px;
+   
+  
+}
+.contact-us input{
+    margin-top: 6px;
+    width: 250px;
+}
+
+.contact-us button{
+    width: 160px;
+    font-size: 15px;
+    padding: 3px;
+    height: 45px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid rgb(194, 193, 193);
+    background-color: #ff9901c4;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+ .Bnt{
+    display: flex;
+    justify-content: center;
+ }
+ .contact-us button:hover{
+    background-color: #997e55;
+}
+
+.create_account{
+    display: flex;
+    flex-direction: column;
+}
+
+
+   
+    
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create account</title>
+    <link rel="stylesheet" href="styel.css">
+</head>
+
+<body>
+
+    <nav >
+        <div >
+        <a href="Home.html" target="_blank">Home</a>
+        </div>
+         
+        <div>
+            <a href="Contact.html" target="_blank">Contact</a>
+            <a href="Help.html" target="_blank" class="selected">Help</a>
+        </div>
+    </nav>
+
+    <h1 class="title">Create Your Account</h1>
+
+    <div class="create_page">
+        
+    
+    <fieldset  class="create_account">
+        <div id="error"></div>
+   <form action="Login.html" method="get"  onsubmit="return formValidate()">
+        <div>
+            <label for="name"> First Name</label>
+            <input type="text" name="First name" id="First_name">
+        </div>
+        <div>
+            <label for="name"> Last Name</label>
+            <input type="text" name="Last name" id="Last_name">
+        </div>
+
+
+        <div>
+            <label class="email" for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label class="password" for="password">Password</label>
+            <input type="text" name="password" id="password">
+        </div>
+
+
+        <div class="gender">
+            <label for="gender">Gender : </label>
+            <label for="gender"> Female</label>
+            <input type="radio" value="Female" name="gender">
+
+            <label for="gender"> Male</label>
+            <input type="radio" value="Male" name="gender">
+
+            <label for="gender">Coustom</label>
+            <input type="radio" value="Coustom" name="gender">
+
+        </div>
+
+        <div>
+        <label for=" date of birth">Date of Birth : </label>
+        <input type="date" id="date-of-birth" 
+        name="date of birth" min="1950-01-01" max="2024-12-31">
+
+        </div>
+
+        <div >
+            <input type="submit" id="submit">
+        </div>
+
+    </form>
+</fieldset>
+
+</div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
