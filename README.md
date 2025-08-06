@@ -32,8 +32,8 @@ This project was built as part of my learning journey in Front-End Development u
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the website](https://fatmamagdi.github.io/Your-Perfect-Home/)  
-(If the link doesn't work yet, follow the steps below to enable GitHub Pages)
+🔗 [Click here to view the website](https://fatmamagdi.github.io/Your-Perfect-Home/)
+
 
 ---
 
